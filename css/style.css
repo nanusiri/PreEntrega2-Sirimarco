@@ -138,18 +138,18 @@
     font-size: 20px;
     font-family: 'Secular One', sans-serif;
     margin-right: 150px;
+    padding-top: 15px;
 }
 
 .subtitulo{
     font-family: 'Black Ops One';
     font-size: 35px;
     color: rgb(196, 3, 3);
-    text-shadow: 3px 3px black;
     text-align: center;
 }
 
 .texto2{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 15px;
     font-family: 'Secular One', sans-serif;
     text-align: justify;
@@ -161,4 +161,16 @@
 
 .espacio{
     padding-top: 75px;
+}
+
+.bloque2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 125px;
+    padding-top: 50px;
+}
+
+.bloque3{
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
