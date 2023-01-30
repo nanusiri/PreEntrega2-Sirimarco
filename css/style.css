@@ -175,6 +175,27 @@
     padding-bottom: 10px;
 }
 
+@media screen and (max-width: 1200px) {
+    #b{
+        padding-top: 0;
+    }
+    .mancuerna{
+        width: 400px;
+    }
+    .fondo{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #b{
+        padding-top: 0;
+    }
+    .mancuerna{
+        width: 350px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     #b{
         padding-top: 0;
