@@ -9,7 +9,6 @@
 
 .encabezado{
     padding-left: 2%;
-    padding-right: 5%;
     padding-top: 3px;
 }
 
@@ -112,7 +111,8 @@
     flex-direction: row;
     align-items: top;
     justify-content: center;
-
+    position: relative;
+    bottom: 0;
 }
 
 .foot{
@@ -173,4 +173,13 @@
 .bloque3{
     padding-top: 50px;
     padding-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    #b{
+        padding-top: 0;
+    }
+    .mancuerna{
+        width: 300px;
+    }
 }
