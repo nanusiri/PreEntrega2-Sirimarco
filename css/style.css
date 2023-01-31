@@ -19,6 +19,7 @@
     padding-left: 2%;
     padding-right: 5%;
     padding-top: 3px;
+    margin-bottom: 5px;
 }
 
 .enlace{
@@ -38,7 +39,7 @@
 
 .menu li{
     display: inline-block;
-    line-height: 150px;
+    line-height: 135px;
     margin: 0 5px;
 }
 
@@ -208,24 +209,6 @@
     .fondo{
         height: auto;
     }
-}
-
-@media screen and (max-width: 1024px) {
-    #b{
-        padding-top: 0;
-    }
-    .mancuerna{
-        width: 350px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    #b{
-        padding-top: 0;
-    }
-    .mancuerna{
-        width: 300px;
-    }
     .checkbtn{
         display: block;
     }
@@ -233,7 +216,8 @@
         position: fixed;
         width: 50%;
         height: 100vh;
-        background: rgb(71, 7, 19);
+        background: rgb(71,7,19);
+        background: linear-gradient(90deg, rgba(71,7,19,1) 0%, rgba(0,0,0,1) 30%);
         top: 150px;
         left: -100%;
         text-align: center;
@@ -253,5 +237,72 @@
     }
     #check:checked ~ ul{
         left: 0;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    #b{
+        padding-top: 0;
+    }
+    .mancuerna{
+        width: 350px;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .logo{
+        height: 75px;
+        width: 112px;
+        margin-top: 35px;
+        margin-left: 20px;
+    }
+    .subtitulo{
+        font-size: 25px;
+    }
+    .texto2{
+        font-size: 10px;
+    }
+    .img1{
+        height: 50px;
+    }
+    #b{
+        padding-top: 0;
+    }
+    .mancuerna{
+        width: 300px;
+    }
+    .img1{
+        height: 150px;
+    }
+    .titulo3{
+        font-size: 40px;
+    }
+    .texto1{
+        font-size: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .titulo1{
+        font-size: 50px;
+    }
+    .titulo2{
+        font-size: 25px;
+    }
+    .boton{
+        font-size: 30px;
+    }
+    .boton:hover{
+        animation-name: pulse;  
+        animation-iteration-count: 1;
+        animation-duration: 1s;
+        font-size: 35px;
+    }
+    
+    @keyframes pulse{
+        0%{font-size: 30px;}
+        50%{font-size: 40px;}
+        100%{font-size: 35px;}
     }
 }
